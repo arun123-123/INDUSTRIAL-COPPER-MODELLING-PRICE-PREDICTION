@@ -22,12 +22,12 @@ EXPLANATION
 
 EXPLORATORY DATA ANALYSIS(EDA):  
 
-  1. Skewness Visualization: To enchance data distribution uniformity, we visualize and correct skewness in continous variables using Seaborn Histplot and Violinplot. By applying the Log Transformation method, we achoeve improved balance and normal distribution, while ensuring data integrity.
+  1. Skewness Visualization: To enchance data distribution uniformity, we visualize and correct skewness in continous variables using Seaborn distplot. By applying the Log Transformation method, we achoeve improved balance and normal distribution, while ensuring data integrity.
   2. Our focus is on improving our dataset for more effective modelling. We achieve this by creating new features to gain deeper insights from the data while making the dataset more efficient.  Notably, our evaluation, facilitated by Seaborn's Heatmap, confirms that no columns, with the highest correlation values.
 
 CLASSIFICATION:
 
  1. WON AND LOST CLASSIFICATION:  In our predictive journey, we utilize the "status" variable definiing "WON" and "LOST".  Data points with status values other than "WON" and "LOST" are excluded from our dataset to focus on the core classification task. Making the predictions on the testing set using the trained model
  2. Hyperparameter tuning with GridSearchCV and Cross-Validation: To fine-tune ourmodel and mitigate overfitting, we employ GridSearchCV with cross-validation for hyperparameter tuning.  This function allows us to systematically explore multiple parameter values and return optimal set of parameters.
- 3. Calculates the Mean Absolute Error(MAE), Mean Squared Error(MSE) R2_score(RMSE) to access the model's performance
+ 3. Calculates the Mean Squared Error(MSE) R2_score to access the model's performance
     
